@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul {
+	background-color: lightgray;
+}
+
+#navbar-list {
+	margin-top : 0px;
+	margin-bottom: 0px;
+}
+
+#navbar-list > li {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 1px 0px 1px;
+}
+
+#navbar-list > li:last-child {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 1px 1px 1px;
+}
+
+
+#navbar-list > li > a:hover {
+	background-color: grey;
+}
+
+body > h1 {
+	margin-bottom: 20px;
+}
+
+#main-container {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#menu-content {
+	background-color: lightblue;
+	height: 2000px;
+}
